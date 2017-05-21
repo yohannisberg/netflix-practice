@@ -11,6 +11,25 @@ body{
   position: relative;
 }
 
+.innerHeader{
+  padding: 0 3.5%;
+  position: fixed;
+  z-index: 100;
+}
+
+.backgroundColorHeader{
+  width: 100%;
+  height:70px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.logo{
+  position: absolute;
+  width: 125px;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
 .mainView{
 position: relative;
 min-height: 1000px;
@@ -25,4 +44,12 @@ z-index: 0;
   top: 0;
   left: 0;
   right: 0;
+}
+
+.header ul{
+  display: inline-block;
+}
+
+.header ul li{
+  display: inline-block;
 }
