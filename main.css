@@ -21,6 +21,8 @@ body{
   width: 100%;
   height:70px;
   background-color: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
 }
 
 .logo{
@@ -46,10 +48,21 @@ z-index: 0;
   right: 0;
 }
 
-.header ul{
-  display: inline-block;
+.topMenuWrapper{
+  position: fixed;
+  padding-left: 135px;
 }
 
-.header ul li{
-  display: inline-block;
+.topMenuLeft{
+  padding-left:4%;
+  width: 102%;
+}
+
+.topMenuLeft span{
+  padding: 0 25px;
+}
+
+.browseRed{
+  color: #e50914;
+  font-weight: 700;
 }
