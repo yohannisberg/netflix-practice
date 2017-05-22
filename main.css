@@ -66,3 +66,57 @@ z-index: 0;
   color: #e50914;
   font-weight: 700;
 }
+
+.redArrow{
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+.whiteArrow{
+  height: 16px;
+  position: relative;
+  top: 3px;
+  margin-left: 6px;
+}
+
+.topMenuRight {
+position: fixed;
+padding-right: 4%;
+right:0px;
+}
+
+.topMenuRight span{
+  position: relative;
+  /*padding:0 25px;*/
+  top: -8px;
+}
+
+.topMenuRight img{
+  /*padding-left:25px;*/
+}
+
+.userTop{
+  max-width: 80px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.userPic{
+  position: fixed;
+  top: 20px;
+  right: 111px;
+}
+
+.magGlass{
+  height: 15px;
+  position: relative;
+  top: -5px;
+  margin-right:3px;
+}
+
+.bellTop{
+  height:27px;
+  padding: 0 30px;
+}
